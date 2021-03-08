@@ -1,3 +1,61 @@
-.col-2 {
-    background-color: blue;
+#nav-container {
+    max-width: 100%;
+    margin:0;
+    padding:0;
+}
+
+.row {
+    width:100%;
+    margin:0;
+}
+
+#mynavbar {
+    background-color: seagreen;
+    width:100%;
+    color:#343a40;
+    text-align: left;
+    padding-right: 20px;
+    border-bottom: 0.5px black solid;
+}
+
+.nav-text {
+    display:inline-block;
+    color:darkseagreen;
+    font-size: 22pt;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color:mintcream;
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+#profile-link {
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    border: 8px solid mediumseagreen;
+    margin: 10px 20px 10px 20px;
+}
+
+#profile-link:hover {
+    border-color: darkseagreen;
+}
+
+.content {
+    background-color: white;
+    padding-left:5%;
+}
+
+.headers {
+    color:darkseagreen;
+}
+
+h3.headers {
+    margin-top: 10%;
 }
