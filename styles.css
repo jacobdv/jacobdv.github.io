@@ -15,15 +15,15 @@
     color:#343a40;
     text-align: left;
     padding-right: 20px;
-    border-bottom: 0.5px black solid;
+    border-bottom: 4px solid mediumseagreen;
     position:fixed;
     z-index: 1;
-    height:170px;
+    height:174px;
 }
 
 .nav-text {
     color:darkseagreen;
-    font-size: 22pt;
+    font-size: 20pt;
     padding-left: 20px;
     text-transform: uppercase;
 }
@@ -54,19 +54,21 @@ a:active{
     padding-left:50px;
 }
 
-h3.headers {
+.boxes {
+    padding-bottom: 30px;
+}
+
+.headers {
     color:darkseagreen;
-    margin:0;
 }
 
 ul {
     column-count:3;
-    column-width: 30px;
-    column-gap: 20px;
 }
 
-.school {
+.subheader {
     color: darkseagreen;
+    padding-top:10px;
 }
 
 .list-titles {
@@ -75,6 +77,26 @@ ul {
     color:darkseagreen;
 }
 
-.boxes {
-    margin-top: 28%;
+#nav-select {
+    visibility: hidden;
+}
+
+.spacer {
+    display: block;
+    height: 180px;
+    margin-top:-180px;
+    visibility: hidden;
+}
+
+#About {
+    margin-top: 0;
+}
+
+
+#fill {
+    height: 80%;
+}
+
+p {
+    margin:0;
 }
